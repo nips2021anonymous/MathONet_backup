@@ -1,6 +1,10 @@
-# My Paper Title
+# MathONet
 
 This repository is the official implementation of [Bayesian Learning to Discover Mathematical Operations in Governing Equations of Dynamic Systems]
+
+## Description
+
+This paper works on...
 
 ## Requirements
 
@@ -21,9 +25,10 @@ python train.py --input-data <path_to_data> --alpha 10 --beta 20
 ```
 
 >📋  Several hyperparameters needs to be defined in the train.py, including: 
-1. number of hidden layers and hidden neurons for MathONet; 
-2. value of regularization paramater;  
-3. number of repeated experiments from random initialization with same MathONet structure and regularization parameter. 
+1. Number of hidden layers and hidden neurons for MathONet; 
+2. Initialization of unary operations.
+3. Value of regularization paramater;  
+4. Number of repeated experiments from random initialization with same MathONet structure and regularization parameter. 
 
 ## Evaluation
 
